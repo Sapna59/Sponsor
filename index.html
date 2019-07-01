@@ -14,7 +14,6 @@
   <style media="screen">
     body {
       text-transform: uppercase;
-
       line-height: 2.2;
 
     }
@@ -27,12 +26,10 @@
     .title {
       padding-left: 0;
       padding-right: 0;
-
     }
 
     .light {
       background-image: url(backlight.jpg);
-
     }
 
     .licon {
@@ -47,11 +44,7 @@
       box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.10);
     }
 
-    .icon {
-      font-size: 40px;
-      padding: 30px;
 
-    }
 
     p {
       font-family: roboto mono, monospace;
@@ -67,20 +60,26 @@
       text-align: center;
 
     }
-    .contact p{
+
+    .contact p {
       font-size: 16px;
     }
 
+    .icon {
+      font-size: 40px;
+      padding: 30px;
+
+    }
 
     .events {
-      margin: 30px;
+      padding: 30px;
     }
 
     .about,
     .why,
     .faq,
     .contact,
-    .events {
+      {
       padding: 30px;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -95,11 +94,13 @@
       margin-bottom: 40px;
       font-weight: bolder;
     }
-.panel-heading h4{
-  opacity :.7;
-  font-family: roboto mono,monospace;
 
-}
+    .panel-heading h4 {
+      opacity: .7;
+      font-family: roboto mono, monospace;
+
+    }
+
     h3 {
       font-size: 40px;
     }
@@ -112,32 +113,67 @@
     h2 {
       font-size: 45px;
     }
-    @media only screen and (max-width:1500px){
 
-  .title img{
-    height: 800px;
-  }
-}
-@media only screen and (max-width:800px){
+    @media only screen and (max-width:1500px) {
 
-  .title img{
-    height: 700px;
-  }
-}
-media only screen and (max-width:400px){
+      .title img {
+        height: 800px;
+      }
 
-  .title img{
-    height: 600px;
-  }
-  .event{
-    padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  }
-  .event h3{
-    font-size: 18px;
-  }
+      .icon {
+        font-size: 40px;
+        padding: 30px;
+      }
+    }
+
+    @media only screen and (max-width:800px) {
+
+      .title img {
+        height: 700px;
+      }
+
+      .icon {
+        font-size: 40px;
+        padding: 30px;
+      }
+    }
+
+    @media only screen and (max-width:400px) {
+
+      .title img {
+        height: 600px;
+      }
+
+      .icon {
+        font-size: 20px;
+        padding: 15px;
+
+      }
+.head{
+  font-size:28px;
 }
+.faq,.contact{
+  font-size: 10px;
+}
+.faq h4{
+  font-size: 12px;
+}
+      .event {
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .event h3 {
+        font-size: 15px;
+      }
+.contact p{
+  font-size:12px;
+}
+      p {
+        font-size: 10px;
+      }
+    }
   </style>
 </head>
 
@@ -181,7 +217,7 @@ media only screen and (max-width:400px){
   </div>
   <div class="container-fluid dark ">
     <section class="about container">
-      <h3>ABOUT US</h3>
+      <h3 class="head">ABOUT US</h3>
       <p>
         VISION THE TECHNICAL SOCIETY OF NIT BHOPAL WAS FOUNDED IN 2008 WITH A GOAL TO INCULCATE IN ENGINEERING STUDENTS THE ZEAL TO INNOVATE
         AND INVENT. THE IDEA ITSELF WAS SOMETHING BIG AND NOTHING LESS THAN A VISION HENCE THE NAME. WE ORGANISE INFORMATIVE WORKSHOPS,
@@ -194,66 +230,66 @@ media only screen and (max-width:400px){
       </p>
     </section>
   </div>
-  <div class="container-fluid light">
 
 
-    <div class="container-fluid events">
-      <h3>Events</h3>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 event">
-          <section >
-            <h3>TECHNOSEARCH</h3>
-            <img src="https://www.visionmanit.org/images/techno/code_kriegers_18.jpg" class="img-responsive" />
-            <p>
-              Technosearch is the Annual Tech-Fest of NIT-BHOPAL which is held during the Odd Semester every year. The festival provides an
-              Opportunity to the many hundreds of Aspiring Young Engineers to Embrace Success.VISION organize various events on Discrete
-              Fields be it Electronics, Electrical, Coding, Robotics, Civil related events or even Fun Events. To name a few we had Electrical
-              and Electronic based events like Circuitrun, Electrobuzz and Electrique; Civil based event, Cantilever; Coding events like Code
-              Kriegers. We had a Huge Participation from Colleges all over Bhopal.
-            </p>
-          </section>
-        </div>
-        <div class="col-md-4 col-sm-6 event">
-          <section >
-            <h3>NOESIS</h3>
-            <img src="https://www.visionmanit.org/images/pyfi.png" class="img-responsive" />
-            <p>
-              NOESIS is the Signature Event of Vision. It was started in year 2011 and still Continues to be The Biggest Technical Event of the
-              Institute after Technosearch, the Annual Technical Festival of the College. It is a Two Day Mega Technical Event conducted in Mid
-              September every year. In the past few years NOESIS received a Great Response.
-              Students from Various Colleges enthusiastically participated in Great Number. There were more than 1000
-              Participations. During NOESIS usually Branch specific Technical Workshops are organised so as to acquaint students with the
-              recent advancements in their branches giving them an Edge over with Hands on Projects.
-            </p>
-          </section>
 
-        </div>
-        <div class="col-md-0 col-sm-3 col-xs-0">
+  <div class="container-fluid events light">
+    <h3 class="head">Events</h3>
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <section class="event">
+          <h3>TECHNOSEARCH</h3>
+          <img src="https://www.visionmanit.org/images/techno/code_kriegers_18.jpg" class="img-responsive" />
+          <p>
+            Technosearch is the Annual Tech-Fest of NIT-BHOPAL which is held during the Odd Semester every year. The festival provides an
+            Opportunity to the many hundreds of Aspiring Young Engineers to Embrace Success.VISION organize various events on Discrete
+            Fields be it Electronics, Electrical, Coding, Robotics, Civil related events or even Fun Events. To name a few we had Electrical
+            and Electronic based events like Circuitrun, Electrobuzz and Electrique; Civil based event, Cantilever; Coding events like Code
+            Kriegers. We had a Huge Participation from Colleges all over Bhopal.
+          </p>
+        </section>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <section class="event">
+          <h3>NOESIS</h3>
+          <img src="https://www.visionmanit.org/images/pyfi.png" class="img-responsive" />
+          <p>
+            NOESIS is the Signature Event of Vision. It was started in year 2011 and still Continues to be The Biggest Technical Event of the
+            Institute after Technosearch, the Annual Technical Festival of the College. It is a Two Day Mega Technical Event conducted in Mid
+            September every year. In the past few years NOESIS received a Great Response.
+            Students from Various Colleges enthusiastically participated in Great Number. There were more than 1000
+            Participations. During NOESIS usually Branch specific Technical Workshops are organised so as to acquaint students with the
+            recent advancements in their branches giving them an Edge over with Hands on Projects.
+          </p>
+        </section>
 
-        </div>
-        <div class="col-md-4 col-sm-6 event">
-          <section >
-            <h3>WORKSHOPS</h3>
-            <img src="https://www.visionmanit.org/images/workshop/nrew_C.jpg" class="img-responsive" />
-            <p>
-              Vision had a Flourishing Adventure in the previous sessions organizing workshops with a wide range of topics starting from a basic
-              WLT Session to a whole new level of an Inter-College Arduino Workshop, involving students from all over Bhopal. Vision helped
-              various participants to Build their Own Bots, Modify them and Prepared to a level for competing at National Level Techfest. Vision
-              also provided insight in Coding World through iniatiative such as Exploring C and Web Development using HTML & CSS.
-            </p>
-          </section>
-        </div>
-        <div class="col-md-0 col-sm-3 col-xs-0">
+      </div>
+      <div class="col-md-0 col-sm-3 col-xs-0">
 
-        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <section class="event">
+          <h3>WORKSHOPS</h3>
+          <img src="https://www.visionmanit.org/images/workshop/nrew_C.jpg" class="img-responsive" />
+          <p>
+            Vision had a Flourishing Adventure in the previous sessions organizing workshops with a wide range of topics starting from a basic
+            WLT Session to a whole new level of an Inter-College Arduino Workshop, involving students from all over Bhopal. Vision helped
+            various participants to Build their Own Bots, Modify them and Prepared to a level for competing at National Level Techfest. Vision
+            also provided insight in Coding World through iniatiative such as Exploring C and Web Development using HTML & CSS.
+          </p>
+        </section>
+      </div>
+      <div class="col-md-0 col-sm-3 col-xs-0">
+
       </div>
     </div>
-
   </div>
+
+
 
   <section class="container-fluid dark">
     <section class="container why">
-      <h3>WHY WE....</h3>
+      <h3 class="head">WHY WE....</h3>
       <p>
         VISION PROVIDES A SUITABLE PLATFORM FOR THE STUDENTS TO SHOWCASE THEIR TECHNICAL SKILLS. WE MOTIVATE THEM FOR RESEARCH AND DEVELOPMENT
         WORK IN ANY ENGINEERING DOMAIN. WE ALSO GUIDE THEM TO DEVELOP PROJECTS AND EXPLORE THE HOT RESEARCH AREAS OF
@@ -334,14 +370,14 @@ media only screen and (max-width:400px){
   </section>
   <section class="container-fluid  dark" id="contacts">
     <section class="container contact">
-      <h2>COntact us</h2>
+      <h2 class="head">COntact us</h2>
       <div class="row">
         <div class="col-sm-4 licon">
           <i class="fas fa-phone fa-4x con"></i>
           <p>
             Call us
-          </p>
-          <p>ISHAAN DWIVEDI : 9479565110 <br>NAYAN SINGHAI : 9425403751</p>
+          <br />
+          ISHAAN DWIVEDI : 9479565110 <br>NAYAN SINGHAI : 9425403751</p>
         </div>
         <div class="col-sm-4 licon">
           <i class="fas fa-envelope fa-4x con"></i>
